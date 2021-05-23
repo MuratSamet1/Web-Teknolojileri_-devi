@@ -1,0 +1,242 @@
+/* CSS Dosyası */
+
+/* Boşlukları sıfırla */
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#sayfa{
+    width: 900px;
+    min-height: 600px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+#banner{
+   width: 398px;
+   height: 100px;
+   border-style: none;
+   border-width: 1px;
+   background-color: white;
+   margin: auto;
+}
+body {
+	margin:0;
+	padding:0
+}
+
+@media only screen and (min-width:960px) {
+	
+.sayfa {
+	width:900px;
+	height:600px;
+	
+    color:#fff;
+	font-family: Arial;
+	margin:0 auto;
+	margin-top:30px;
+	padding:20px
+}
+
+}
+
+@media only screen and (min-width:769px) and (max-width:959px) {
+	
+.sayfa {
+	width:900px;
+	
+	color:#fff;
+	font-family: Arial;
+	margin:20px;
+	padding:20px
+}
+
+}
+
+@media only screen and (max-width:768px) {
+	
+.sayfa {
+	
+	color:#fff;
+	font-family: Arial;
+	margin:20px;
+	padding:20px
+}
+
+}
+/* resim*/
+#resim{
+    width: 100px;
+    height: 80px;
+    border-style: none;
+    border-width: 1px;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+/*sosyal medya ikonları*/
+#sosyal{
+    width: 180px;
+    min-height: 40px;
+    border-style: none;
+    border-width: 1px;
+    background-color: white;
+    position: relative;
+    float: right;
+    top: 50px;
+    right: 10px;
+}
+
+
+/*anamenü*/
+#anamenu{
+    width: 898px;
+    height: 50px;
+    border-style: none;
+    border-width: 1px;
+    background-color: deepskyblue;
+    margin: auto;
+}
+#anamenu ul{
+    list-style-type: none;
+}
+#anamenu ul li {
+    width: 80px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: blue;
+    background-color: white;
+    float: left;
+    padding: 2px;
+    margin-left: 32px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+
+}
+#anamenu ul a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+     font-size: 12px;
+}
+#anamenu ul a:link{
+    color: blue;
+}
+#anamenu ul a:visited{
+    color: brown;
+}
+#anamenu ul a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+#anamenu ul a:active{
+    color:lawngreen
+}
+/*içerik ve yan menü*/
+#icerik{
+    width: 800px;
+    min-height: 500px;
+    border-style: none;
+    border-width: 1px;
+    background-color:yellow;
+    float: left;
+    
+}
+#yanmenu{
+    width: 100px;
+    height: 572px;
+    border-style: none;
+    border-width: 1px;
+    background-color:tomato;
+    float: right;
+   
+}
+.video{
+    float: left;
+    width: 500px;
+    margin: 30px;
+}
+.metin{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.baslik{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    color:green
+}
+#altmenu{
+    width: 800px;
+    min-height: 50px;
+    border-style: none;
+    border-width: 1px;
+    background-color:greenyellow;
+    float: left;
+    text-align: center;
+    color: black;
+    
+}
+#altmenu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    color: black;
+}
+#altmenu a:hover{
+    color: blue;
+}
+
+.hakkinda{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.ozgecmis {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.sehrim {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    color:green
+}
+.sehrim1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.sakli{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    color:green
+}
+.takaron{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    color:green
+}
+.miras{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.form{
+    color: darkblue;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:whitesmoke;
+    border-color: darkmagenta;
+    border-width: 5px;
+    border-style: dotted;
+    margin: 10px;
+    padding: 10 px;
+}
